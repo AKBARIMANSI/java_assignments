@@ -1,0 +1,36 @@
+package collation;
+
+import java.util.ArrayList;
+
+public class Array_list 
+{
+    public static void main(String[] args) {
+		
+    	ArrayList<String> name=new ArrayList<String>();
+    	name.add("mansi");
+    	name.add("ekta");
+    	name.add("ruchita");
+    	
+    	
+//    	System.out.println(name);
+//    	name.add("manii");
+//    	System.out.println(name);
+//    	name.add(1,"srutii");
+//    	System.out.println(name);
+//    	name.add(0,"ami");
+//    	System.out.println(name);
+    	
+//    	System.out.println(name);
+//    	name.remove(1);
+//    	System.out.println(name);
+    	
+//    	System.out.println(name);
+//    	name.set(0,"ashiya");
+//    	System.out.println(name.get(2));
+//    	
+    	System.out.println(name);
+    	name.clear();
+    	System.out.println(name);
+    	
+	}
+}

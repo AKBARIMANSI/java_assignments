@@ -1,0 +1,18 @@
+package exception;
+
+public class nullpointer_exception 
+{
+   public static void main(String[] args) 
+   {
+	 String str=null;
+	 
+	   try
+	   {
+		   System.out.println(str.toUpperCase());
+	   }
+	   catch(exception n)
+	   {
+		   System.out.println("null can't be casted");
+	   }
+   }
+}

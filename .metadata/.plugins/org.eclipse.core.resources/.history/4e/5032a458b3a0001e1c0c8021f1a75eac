@@ -1,0 +1,19 @@
+package file_io;
+
+import java.io.File;
+
+public class createfile
+{
+    public static void main(String[] args)
+    {
+		File f=new file("d:\\java\\javawrok\\newfolder");
+    	if(f.createNewFile())
+    	{
+    		System.out.println("file succesfully creat..!");
+    	}
+    	else
+    	{
+    		System.out.println("file Already exist...!");
+    	}
+	}
+}

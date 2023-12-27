@@ -1,0 +1,20 @@
+package exception;
+
+import javax.naming.NamingException;
+
+public class nullpointer_exception 
+{
+   public static void main(String[] args) 
+   {
+	 String str=null;
+	 
+	   try
+	   {
+		   System.out.println(str.toUpperCase());
+	   }
+	   catch(Exception n)
+	   {
+		   System.out.println("null can't be casted");
+	   }
+   }
+}

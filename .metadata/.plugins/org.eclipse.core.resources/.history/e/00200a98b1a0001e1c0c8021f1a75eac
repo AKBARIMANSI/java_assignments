@@ -1,0 +1,28 @@
+package file_io;
+
+import java.io.*;
+
+public class FileWriter
+{
+    public static void main(String[] args)
+    {
+    	   try 
+    		{
+    			FileWriter f=new FileWriter("d:\\java\\javawrok\\newfolder");
+    			try
+    			{
+    				f.write("my name is mansi...!");
+    				f.write("i am student ...!");
+    			}
+    			finally
+    			{
+    				f.close();
+    			}
+    			System.out.println("Succedfully Data Wrote in File");
+    		}
+    		catch(IOException i)
+    		{
+    			System.out.println(i);
+    		}
+    }
+}
